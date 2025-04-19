@@ -1,1 +1,1 @@
-In this fodler contain images 
+In this folder contains images   
