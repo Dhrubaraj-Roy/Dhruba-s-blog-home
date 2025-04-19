@@ -2,7 +2,6 @@
 layout: post
 title: "My 25-Day Sleep Experiment: What I've Learned So Far"
 date: 2025-04-19
-comments: true
 ---
 
 It's been 25 days since I started experimenting with my sleep habits, and I want to share what I've discovered so far. We all know sleep is important—I won't bore you with the basics. Instead, let me tell you about my personal journey.
@@ -43,19 +42,11 @@ Have you experimented with your sleep habits? What's worked for you? I'd love to
 
 *Note: I'm not a sleep expert—just someone sharing their personal journey. Always consult health professionals for personalized advice.*
 
-{% if site.comments %}
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}";
-        this.page.identifier = "{{ page.url }}";
-    };
-    (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://YOUR-DISQUS-SHORTNAME.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<h3>Comments</h3>
+<script src="https://utteranc.es/client.js"
+        repo="Dhrubaraj-Roy/skills-github-pages"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
