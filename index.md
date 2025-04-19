@@ -5,6 +5,9 @@ title: Home
 
 <div class="blog-container">
   <header class="site-header">
+    <div class="logo-container">
+      <img src="/skills-github-pages/assets/logo.png" alt="Dhruba's Blog Logo" class="site-logo">
+    </div>
     <div class="glitch-container">
       <h1 class="glitch" data-text="DHRUBA'S LOG">DHRUBA'S LOG</h1>
     </div>
