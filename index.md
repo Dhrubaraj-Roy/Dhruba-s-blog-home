@@ -8,7 +8,7 @@ title: Home
     <div class="glitch-container">
       <img src="/skills-github-pages/assets/logo.png" alt="AI Blog" class="site-logo glitch-image" data-src="/skills-github-pages/assets/logo.png">
     </div>
-    <p class="site-description">Exploring code, life, and everything in between</p>
+    <p class="site-description">Hey, my name is Dhruba. Welcome to my blog, where we explore code, life, and everything in between</p>
   </header>
 
   <div class="posts-container">
