@@ -4,3 +4,7 @@ plugins:
 - jekyll-feed
 baseurl: "/skills-github-pages"
 future: true
+comments: true
+url: "https://dhrubaraj-roy.github.io"
+disqus:
+  shortname: your-disqus-shortname
