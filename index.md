@@ -65,6 +65,31 @@ title: Home
 <!-- End MailerLite Universal -->
 
 <style>
+  /* Header styles with glitch effect */
+  .site-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #333;
+  }
+
+  /* ADD THESE STYLES RIGHT HERE */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .site-logo {
+    max-width: 120px;
+    height: auto;
+    filter: drop-shadow(0 0 5px rgba(0, 255, 0, 0.3));
+  }
+  /* END OF ADDED STYLES */
+
+  .glitch-container {
+    margin-bottom: 0.5rem;
+  }
+  
   /* Base styles */
   body {
     background-color: #0d0d0d;
