@@ -41,10 +41,8 @@ title: Home
     <div class="subscription-box">
       <p>Get notified when new thoughts are published. No spam.</p>
       
-      <form action="https://formspree.io/f/manernkn" method="POST" class="sub-form">
-        <input type="email" name="email" placeholder="your.email@example.com" required>
-        <button type="submit">SUBSCRIBE</button>
-      </form>
+      <!-- MailerLite Form -->
+      <div class="ml-embedded" data-form="EyeZih"></div>
     </div>
   </div>
 
@@ -52,6 +50,16 @@ title: Home
     <p>&copy; 2025 Dhruba's Log | Built with <span class="heart">♥</span> on GitHub Pages</p>
   </footer>
 </div>
+
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1463895');
+</script>
+<!-- End MailerLite Universal -->
 
 <style>
   /* Base styles */
@@ -219,48 +227,35 @@ title: Home
     color: #bbb;
   }
 
-  .sub-form {
-    display: flex;
-    gap: 0.5rem;
+  /* MailerLite Form Styling */
+  .ml-embedded form {
+    background: transparent !important;
+    border: none !important;
   }
 
-  .sub-form input[type="email"] {
-    flex-grow: 1;
-    background-color: #1a1a1a;
-    border: 1px solid #333;
-    border-radius: 3px;
-    padding: 0.7rem 1rem;
-    color: #fff;
-    font-family: 'Courier New', monospace;
-    outline: none;
-    transition: border-color 0.3s;
+  .ml-embedded input[type="email"] {
+    background: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #fff !important;
+    font-family: 'Courier New', monospace !important;
+    padding: 10px 15px !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
   }
 
-  .sub-form input[type="email"]:focus {
-    border-color: #0f0;
-    box-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+  .ml-embedded button[type="submit"] {
+    background: #0f0 !important;
+    color: #000 !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-family: 'Courier New', monospace !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
   }
 
-  .sub-form button {
-    background-color: #0f0;
-    color: #000;
-    font-weight: bold;
-    border: none;
-    border-radius: 3px;
-    padding: 0.7rem 1.5rem;
-    cursor: pointer;
-    font-family: 'Courier New', monospace;
-    letter-spacing: 0.05em;
-    transition: background-color 0.3s, transform 0.2s;
-  }
-
-  .sub-form button:hover {
-    background-color: #00cc00;
-    transform: translateY(-2px);
-  }
-
-  .sub-form button:active {
-    transform: translateY(0);
+  .ml-embedded button[type="submit"]:hover {
+    background: #00cc00 !important;
   }
 
   /* Footer */
@@ -353,15 +348,6 @@ title: Home
     
     .post-date {
       margin-bottom: 0.5rem;
-    }
-    
-    .sub-form {
-      flex-direction: column;
-    }
-    
-    .sub-form input[type="email"], 
-    .sub-form button {
-      width: 100%;
     }
   }
 </style>
