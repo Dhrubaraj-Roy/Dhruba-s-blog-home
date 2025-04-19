@@ -5,11 +5,8 @@ title: Home
 
 <div class="blog-container">
   <header class="site-header">
-    <div class="logo-container">
-      <img src="/skills-github-pages/assets/logo.png" alt="Dhruba's Blog Logo" class="site-logo">
-    </div>
     <div class="glitch-container">
-      <h1 class="glitch" data-text="DHRUBA'S LOG">DHRUBA'S LOG</h1>
+      <img src="/skills-github-pages/assets/logo.png" alt="AI Blog" class="site-logo glitch-image" data-src="/skills-github-pages/assets/logo.png">
     </div>
     <p class="site-description">Exploring code, life, and everything in between</p>
   </header>
@@ -49,8 +46,8 @@ title: Home
     </div>
   </div>
 
-  <footer class="site-footer">
-    <p>&copy; 2025 Dhruba's Log | Built with <span class="heart">♥</span> on GitHub Pages</p>
+   <footer class="site-footer">
+    <p>&copy; 2025 | Built with <span class="heart">♥</span> on GitHub Pages</p>
   </footer>
 </div>
 
@@ -65,6 +62,45 @@ title: Home
 <!-- End MailerLite Universal -->
 
 <style>
+  .site-logo {
+  max-width: 150px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.glitch-image {
+  animation: glitch 2s infinite;
+}
+
+.glitch-image::before,
+.glitch-image::after {
+  content: "";
+  background-image: url('/skills-github-pages/assets/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.glitch-image::before {
+  left: 2px;
+  filter: drop-shadow(-2px 0 #ff00c1);
+  clip-path: polygon(0 15%, 100% 15%, 100% 30%, 0 30%);
+  animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch-image::after {
+  left: -2px;
+  filter: drop-shadow(-2px 0 #00fff9) drop-shadow(2px 2px #ff00c1);
+  clip-path: polygon(0 50%, 100% 50%, 100% 70%, 0 70%);
+  animation: glitch-anim2 1s infinite linear alternate-reverse;
+}
   /* Header styles with glitch effect */
   .site-header {
     text-align: center;
