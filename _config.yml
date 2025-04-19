@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 - jekyll-feed
 baseurl: "/skills-github-pages"
+future: true
