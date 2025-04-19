@@ -21,9 +21,9 @@ After analyzing the research and my own sleep patterns, I've focused on three ke
 
 Through my experiment, I've come to understand that sleep really depends on three factors, which I call QQR:
 
-- **Quantity**: Getting enough hours of sleep
-- **Quality**: Ensuring the sleep I get is deep and restorative
-- **Regularity**: Maintaining consistent sleep and wake times
+1. **Quantity**: Getting enough hours of sleep
+2. **Quality**: Ensuring the sleep I get is deep and restorative
+3. **Regularity**: Maintaining consistent sleep and wake times
 
 I'm happy to report that I've made good progress with quantity and quality. I'm consistently getting 7-8 hours of sleep and waking up feeling more refreshed than before.
 
