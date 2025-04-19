@@ -1,9 +1,24 @@
+
 ---
 title: "My 25-Day Sleep Experiment: What I've Learned So Far"
 date: 2025-04-19
 ---
 
 It's been 25 days since I started experimenting with my sleep habits, and I want to share what I've discovered so far. We all know sleep is important—I won't bore you with the basics. Instead, let me tell you about my personal journey.
+
+It's been 25 days since I started experimenting with my sleep habits, and I want to share what I've discovered so far. We all know sleep is important—I won't bore you with the basics. Instead, let me tell you about my personal journey.
+
+## My Sleep Misconception
+
+For years, I convinced myself I was a night owl. I thought my most productive hours were after midnight when the world went quiet. I'd stay up late planning to tackle coding projects and creative work, believing this was when my brain worked best.
+
+The reality? By evening, I had already depleted my mental energy during the day. Despite my intentions to be productive, those late nights often devolved into mindless YouTube videos and endless chat conversations. Nothing substantial was getting accomplished.
+
+It took some honest self-reflection to realize I wasn't actually a night owl at all—not a Lion, Bear, Wolf, or any other chronotype animal. I was just a regular person fighting against my natural rhythm.
+
+My natural pattern actually aligns with a more conventional schedule: sleeping around 11 PM to midnight and waking between 8-9 AM. Once I embraced this reality instead of forcing myself into a night owl identity, the quality of my sleep—and my entire day—dramatically improved.
+
+*Disclaimer: If you're genuinely a night owl, you might not relate to this specific journey. But if you've ever questioned whether you're fighting against your natural sleep pattern rather than working with it, you might find my story interesting.*
 
 ## The Research Phase
 
@@ -19,7 +34,7 @@ After analyzing the research and my own sleep patterns, I've focused on three ke
 
 ## The Three Pillars of Sleep: QQR
 
-Through my experiment, I've come to understand that sleep really depends on three factors, which I call QQR:
+Through my experiment, I've come to understand that sleep really depends on three factors, which we call QQR:
 
 1. **Quantity**: Getting enough hours of sleep
 2. **Quality**: Ensuring the sleep I get is deep and restorative
