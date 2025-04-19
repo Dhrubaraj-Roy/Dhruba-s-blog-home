@@ -1,4 +1,3 @@
-
 ---
 title: "My 25-Day Sleep Experiment: What I've Learned So Far"
 date: 2025-04-19
